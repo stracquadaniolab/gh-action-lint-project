@@ -1,0 +1,25 @@
+name: 'gh-action-lint-project'
+description: 'Performs checks on directory structure and naming standard in a project.'
+inputs:
+  root_dir:
+    description: 'The root directory to check'
+    required: true
+    default: '.'
+  
+  project_layout: 
+    description: 'The layout of the project directory.'
+    required: true
+    default: 'https://raw.githubusercontent.com/stracquadaniolab/cookiecutter-base-project/master/layout.tree'
+  
+  naming_standard:
+    description: 'The regex for the naming standard.'
+    required: false
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.root_dir }}
+    - ${{ inputs.project_layout }}
+    - ${{ inputs.name_format }}
+
