@@ -1,4 +1,4 @@
-FROM docker.pkg.github.com/stracquadaniolab/containers/vanilla:latest
+FROM stracquadaniolab/vanilla:latest
 
 LABEL org.stracquadaniolab.maintainer="gh-action-lint-project"
 LABEL org.stracquadaniolab.version="0.0.1"
