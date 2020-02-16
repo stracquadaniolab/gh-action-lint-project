@@ -6,6 +6,7 @@ LABEL org.stracquadaniolab.platform="github-action"
 
 ADD ./entrypoint.sh /usr/bin/entrypoint.sh
 ADD ./layoutcheck.py /usr/bin/layoutcheck.py
+ADD ./namecheck.py /usr/bin/namecheck.py
 
 RUN chmod +x /usr/bin/entrypoint.sh
 
