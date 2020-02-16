@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# set -e
+set -e
 
 ROOT_DIR=$1
 PROJECT_LAYOUT=$2
