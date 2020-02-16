@@ -18,5 +18,5 @@ echo "...OK"
 ### correct standard
 ############################################################
 echo "Checking filename standards ... "
-python3 /usr/bin/namecheck.py . ./.git,./data/raw,./data/external Snakefile,Snakejob,README,LICENSE
+python3 /usr/bin/namecheck.py . ./.git,./data/raw,./data/external Snakefile,Snakejob,README,LICENSE,MANIFEST
 echo "...OK"
