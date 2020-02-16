@@ -35,4 +35,5 @@ callback_validation "$CHECKDIR"
 ############################################################
 echo -n "Checking filename standards ... "
 CHECKNAMES=$(find . -not -path './.git/*' | grep '[^a-z\._/0-9]' | grep -i -v -E "README|MANIFEST|Snakefile|Makefile|LICENSE|Snakejob|data/external|data/raw" )
+echo ${CHECKNAMES}
 callback_validation "${CHECKNAMES}"
