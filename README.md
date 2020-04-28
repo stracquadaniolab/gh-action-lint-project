@@ -5,8 +5,6 @@ This action controls if a project uses the lab file naming and directory structu
 
 ## Inputs
 
-## Inputs
-
 ### `root_dir`
 
 **Required** The root dir to check. Default: `.`.
