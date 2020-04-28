@@ -1,7 +1,7 @@
 FROM stracquadaniolab/vanilla:latest
 
 LABEL org.stracquadaniolab.maintainer="gh-action-lint-project"
-LABEL org.stracquadaniolab.version="v0.0.1"
+LABEL org.stracquadaniolab.version="v1"
 LABEL org.stracquadaniolab.platform="github-action"
 
 ADD ./entrypoint.sh /usr/bin/entrypoint.sh
