@@ -1,5 +1,5 @@
 # lint-project
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/stracquadaniolab/gh-action-lint-project)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/tag/stracquadaniolab/gh-action-lint-project)
 
 This action controls if a project uses the lab file naming and directory structure. 
 
